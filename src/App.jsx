@@ -13,14 +13,14 @@ const AppContent = () => {
   const debouncedSearchTerm = useDebounce(searchTerm, 300);
 
   const localProducts = [
-    { id: 1, name: "Esteh Anget", price: 8000, image: "https://i.imgur.com/CT92xZA.jpeg", category: "Teh", description: "pokoknya teh" },
-    { id: 2, name: "Kopsu", price: 15000, image: "https://i.imgur.com/7MvlKK9.jpeg", category: "Kopi", description: "Kopi zuzuuu" },
-    { id: 3, name: "nuruk", price: 12000, image: "https://i.imgur.com/aknoB4D.jpeg", category: "Jus", description: "Nutrisari jeruk ajh" },
-    { id: 4, name: "Smoothies", price: 18000, image: "https://i.imgur.com/gYodsX4.jpeg", category: "Smoothies", description: "Smoothie creamy tapi tapi tapi" },
-    { id: 5, name: "Susu Goyang", price: 20000, image: "https://i.imgur.com/8FBBG1m.jpeg", category: "Milkshake", description: "Milkshake es tapi anget" },
-    { id: 6, name: "Es Kelapa Young", price: 10000, image: "https://i.imgur.com/3cax3Vm.jpeg", category: "Tradisional", description: "Buah kelapa di pukul2, terus di kasih es" },
-    { id: 7, name: "Thai Tea", price: 14000, image: "https://i.imgur.com/ZgGmXDm.jpeg", category: "Teh", description: "wong fei hung jago silat" },
-    { id: 8, name: "RRQ Lemon Tea", price: 9000, image: "https://i.imgur.com/dfzyTAt.jpeg", category: "Teh", description: "Jendral hirohito kalo jadi minuman" }
+    { id: 1, name: "Esteh Anget", price: 3500, image: "https://i.imgur.com/CT92xZA.jpeg", category: "Teh", description: "pokoknya teh" },
+    { id: 2, name: "Kopsu", price: 6000, image: "https://i.imgur.com/7MvlKK9.jpeg", category: "Kopi", description: "Kopi zuzuuu" },
+    { id: 3, name: "nuruk", price: 5000, image: "https://i.imgur.com/aknoB4D.jpeg", category: "Jus", description: "Nutrisari jeruk ajh" },
+    { id: 4, name: "Smoothies", price: 10000, image: "https://i.imgur.com/gYodsX4.jpeg", category: "Smoothies", description: "Smoothie creamy tapi tapi tapi" },
+    { id: 5, name: "Susu Goyang", price: 8000, image: "https://i.imgur.com/8FBBG1m.jpeg", category: "Milkshake", description: "Milkshake es tapi anget" },
+    { id: 6, name: "Es Kelapa Young", price: 9000, image: "https://i.imgur.com/3cax3Vm.jpeg", category: "Tradisional", description: "Buah kelapa di pukul2, terus di kasih es" },
+    { id: 7, name: "Thai Tea", price: 5000, image: "https://i.imgur.com/ZgGmXDm.jpeg", category: "Teh", description: "wong fei hung jago silat" },
+    { id: 8, name: "RRQ Lemon Tea", price: 5000, image: "https://i.imgur.com/dfzyTAt.jpeg", category: "Teh", description: "Jendral hirohito kalo jadi minuman" }
   ];
 
   useEffect(() => {
