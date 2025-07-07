@@ -318,7 +318,7 @@ const ProductsPage = ({ isLoading, filteredProducts, searchTerm, setSearchTerm, 
                   <div className="p-4">
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full">{product.category}</span>
-                      <div className="flex items-center space-x-1"><Star className="w-4 h-4 fill-yellow-400 text-yellow-400" /><span className="text-sm text-gray-600">4.5</span></div>
+                      
                     </div>
                     <h3 className="font-semibold text-gray-800 mb-2">{product.name}</h3>
                     <p className="text-gray-600 text-sm mb-4">{product.description}</p>
