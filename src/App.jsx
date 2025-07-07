@@ -375,7 +375,7 @@ const AboutPage = () => (
             <p className="text-gray-600 mb-4">Dengan tim yang kreatif ngeracik minuman segar dan selalu siap ngadepin badai.</p>
             <p className="text-gray-600">Visi kami adalah menjadi toko minuman terdepan yang memberikan pengalaman berbelanja yang menyenangkan dan produk berkualitas tinggi kepada setiap pelanggan.</p>
           </div>
-          <div className="relative"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=500&h=400&fit=crop" alt="Tim Fuyooo" className="rounded-lg shadow-lg w-full h-80 object-cover"/></div>
+          <div className="relative"><img src="https://i.imgur.com/L9wEWy6.jpeg" alt="Tim Fuyooo" className="rounded-lg shadow-lg w-full h-80 object-cover"/></div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="text-center p-6 bg-blue-50 rounded-lg"><div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4"><Star className="w-8 h-8 text-white" /></div><h3 className="text-xl font-semibold mb-2 text-gray-800">Kualitas</h3><p className="text-gray-600">Mengutamakan kualitas bahan dan proses pembuatan yang higienis</p></div>
